@@ -67,6 +67,14 @@ a, .btn-link {
         content: "An error has occurred."
     }
 
+.breathe-animation {
+    position: relative;
+    display: block;
+    width: 50rem;
+    height: 50rem;
+    margin: 20vh auto 1rem auto;
+}
+
 .loading-progress {
     position: relative;
     display: block;
