@@ -107,3 +107,31 @@ a, .btn-link {
     .loading-progress-text:after {
         content: var(--blazor-load-percentage-text, "Loading");
     }
+
+
+.lock-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 40px 0;
+}
+
+.lock-shackle {
+    width: 120px;
+    height: 60px;
+    border: 8px solid #888;
+    border-bottom: none;
+    border-radius: 60px 60px 0 0;
+    margin-bottom: -10px;
+    background: transparent;
+}
+
+.lock-body {
+    background: #f3c96b;
+    border: 4px solid #b89b4c;
+    border-radius: 12px;
+    padding: 30px 20px;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.15);
+    display: flex;
+    justify-content: center;
+}
